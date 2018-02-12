@@ -1,0 +1,20 @@
+{
+  "name": "simple-timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --watch --open",
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine": "^2.9.0",
+    "jasmine-dom-custom-matchers": "^1.0.2",
+    "jsdom": "^11.6.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
